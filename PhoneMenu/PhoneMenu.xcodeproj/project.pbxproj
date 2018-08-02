@@ -12,6 +12,7 @@
 		DC94225E21113D490038320B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC94225C21113D490038320B /* Main.storyboard */; };
 		DC94226021113D4B0038320B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC94225F21113D4B0038320B /* Assets.xcassets */; };
 		DC94226321113D4B0038320B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC94226121113D4B0038320B /* LaunchScreen.storyboard */; };
+		DC94226B211141A90038320B /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC94226A211141A80038320B /* DetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DC94225F21113D4B0038320B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC94226221113D4B0038320B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC94226421113D4B0038320B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC94226A211141A80038320B /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DC94225821113D490038320B /* AppDelegate.swift */,
 				DC94225A21113D490038320B /* ViewController.swift */,
+				DC94226A211141A80038320B /* DetailTableViewCell.swift */,
 				DC94225C21113D490038320B /* Main.storyboard */,
 				DC94225F21113D4B0038320B /* Assets.xcassets */,
 				DC94226121113D4B0038320B /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC94226B211141A90038320B /* DetailTableViewCell.swift in Sources */,
 				DC94225B21113D490038320B /* ViewController.swift in Sources */,
 				DC94225921113D490038320B /* AppDelegate.swift in Sources */,
 			);
